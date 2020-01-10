@@ -59,6 +59,7 @@ An array is a collection of different data types which are ordered and changeabl
 ### How to create an empty array
 
 In JavaScript, we can create an array in different ways. Let us different ways to create an array.
+It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that name again.
 
 - Using Array constructor
 
@@ -519,12 +520,20 @@ Slice: To cut out a multiple items in range. It takes two parameters:starting an
 Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
 
 ```js
-  const numbers = [1, 2, 3, 4, 5];
+  const numbers = [1, 2, 3, 4, 5]
 
   console.log(numbers.splice())                // -> remove all items
-  console.log(numbers.splice(0,1))            // remove the first item
-  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1,2,6,7,8] //it removes two item and replace three items
 
+```
+
+```js
+  const numbers = [1, 2, 3, 4, 5]
+  console.log(numbers.splice(0,1))            // remove the first item
+```
+
+```js
+  const numbers = [1, 2, 3, 4, 5];
+  console.log(numbers.splice(3, 3, 6, 7, 8))  // -> [1, 2, 3, 6, 7, 8] //it removes two item and replace three items
 ```
 
 #### Adding item to an array using push
@@ -562,7 +571,7 @@ console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
 #### Removing the end element using pop
 
-Pop: Removing item in the end.
+pop: Removing item in the end.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
