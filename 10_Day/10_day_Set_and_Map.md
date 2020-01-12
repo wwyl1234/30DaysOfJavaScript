@@ -13,9 +13,9 @@
   </sub>
 </div>
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](#)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
 
-![Day 5](../images/banners/day_1_10.png)
+![Day 10](../images/banners/day_1_10.png)
 
 - [Day 10](#day-10)
   - [Set](#set)
@@ -35,6 +35,9 @@
     - [Getting a value from Map](#getting-a-value-from-map)
     - [Checking key in Map](#checking-key-in-map)
   - [Exercises](#exercises)
+    - [Exercises:Level 1](#exerciseslevel-1)
+    - [Exercises:Level 2](#exerciseslevel-2)
+    - [Exercises:Level 3](#exerciseslevel-3)
 
 # Day 10
 
@@ -380,9 +383,16 @@ Sweden Stockholm
 Norway Oslo
 ```
 
-🌕 You established a big milestone, you are unstoppable.Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
+
+### Exercises:Level 1
+```js
+const a = {4, 5, 8, 9}
+const b = {3, 4, 5, 7}
+const countries = ['Finland', 'Sweden', 'Norway']
+```
 
 1. create an empty set
 2. Create a set containing 0 to 10 using loop
@@ -390,7 +400,16 @@ Norway Oslo
 4. Clear a set
 5. Create a set of 5 string elements from array
 6. Create a map of countries and number of characters of a country
-7. \*\*\* Find the 10 most spoken languages:
+
+### Exercises:Level 2
+
+1. Find a union b
+2. Find a intersection b
+3. Find a with b
+
+### Exercises:Level 3
+
+1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
    ````js
    // Your output should look like this
@@ -419,4 +438,4 @@ Norway Oslo
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](#)
+[<< Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md) | [Day 11>>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
