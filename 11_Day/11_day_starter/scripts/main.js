@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Exercise 11
 // Level 1
 const constants = [2.72, 3.14, 9.81, 37, 100]
@@ -146,7 +146,3 @@ newStudent["skills"]["dataBase"].push({"skill": "SQL", "level": 8});
 newStudent["skills"]["dataScience"].push("SQL");
 
 console.log(newStudent);
-=======
-console.log(countries)
-alert('Open the console and check if the countries has been loaded')
->>>>>>> upstream/master

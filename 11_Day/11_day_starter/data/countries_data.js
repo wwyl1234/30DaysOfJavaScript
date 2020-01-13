@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 const theCountries = [
-=======
-const countries = [
->>>>>>> upstream/master
+
   {
     name: 'Afghanistan',
     capital: 'Kabul',
