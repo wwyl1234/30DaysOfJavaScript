@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 console.log(countries);
 alert('Open the console and check if the countries has been loaded');
 // Exercise 10
@@ -78,3 +79,7 @@ function mostSpokenLanguages(countries, num){
 console.log(mostSpokenLanguages(countries, 10));
 
 console.log(mostSpokenLanguages(countries, 3));
+=======
+console.log(countries)
+alert('Open the console and check if the countries has been loaded')
+>>>>>>> upstream/master
