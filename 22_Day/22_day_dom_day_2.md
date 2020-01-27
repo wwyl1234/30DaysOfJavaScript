@@ -14,7 +14,7 @@
 
 </div>
 
-[<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>]()
+[<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_22.png)
 - [Day 22](#day-22)
@@ -115,6 +115,7 @@ To see a created element on the HTML document we should append it to the parent 
             title = document.createElement('h1')
             title.className = 'title'
             title.style.fontSize = '24px'
+            title.textContent = i
             document.body.appendChild(title)
         }
     </script>
@@ -219,7 +220,7 @@ The above snippet of code cleared all the child elements.
 
 ### Exercises: Level 3
 
-Check the requirement of this project from both images(jpg and gif). All the data and CSS has been implemented using JavaScript only. The data is found on starter folder project_3.
+Check the requirement of this project from both images(jpg and gif). All the data and CSS has been implemented using JavaScript only. The data is found on starter folder project_3. The drop down button has been created using [*details*](https://www.w3schools.com/tags/tag_details.asp) HTML element.
 
 ![Challenge Information](./../images/projects/dom_mini_project_challenge_info_day_2.3.gif)
 
@@ -227,4 +228,4 @@ Check the requirement of this project from both images(jpg and gif). All the dat
 
 🎉 CONGRATULATIONS ! 🎉
 
-  [<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>]()
+  [<< Day 21](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/21_Day/21_day_dom.md) | [Day 23 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/23_Day/23_day_dom_day_3.md)
